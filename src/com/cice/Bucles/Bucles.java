@@ -30,6 +30,25 @@ public class Bucles {
          */
 
 
+
+        //bucle foreach
+        /*
+        for(tipo nombre_variable:array)
+        se recorre de inicio a fin. no tenemos el control
+        tipo: tipo de dato que voy a sacar de la lista de datos
+        vnombre_variable: ariable auxiliar que va a guardar el valor de la lista que estoy sacando en ese momento
+        array: lista o cjto a recorrer.
+         */
+
+        int[] array={1,2,3,4,5,6,7,8,9};
+
+        for(int a:array){
+
+            System.out.println(a);
+        }
+
+
+
          }
 
 }
