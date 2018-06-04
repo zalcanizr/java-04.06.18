@@ -14,7 +14,7 @@ public class MuestraPosiciones {
             System.out.println(array[contador]);
             contador++;
         }
-        
+
 
         System.out.println("has recorrido: "+ contador+" posiciones del array");
 

@@ -47,8 +47,35 @@ public class Bucles {
             System.out.println(a);
         }
 
+        int i=12;
+        //bucles while(){} y do{} while
+        while (i<20){
+
+            System.out.println("i vale: "+ i);
+            i++;
+        }// empezaría en 12 y acabaría en 19
 
 
+        //es equivalente al anterior bucle?
+        while(i<20){
+            System.out.println("i vale: " + i++);
+        }// si es equivalente
+        // empezaría en 12 y acabaría en 19
+
+
+
+        //es equivalente a los bucles anteriores?
+        while(i<20){
+            System.out.println("i vale: " + ++i);
+        }// noooooo empezaría en 13 y acabaría en 19
          }
+
+
+         //bucle do{}while()
+        //llevábamos que la i vale 19
+
+        do{
+        System.out.println("i vale: " + i++);
+        }while (i<10);
 
 }
